@@ -1,2 +1,51 @@
 /* CSS Document */
 
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+/*.bodoni-moda-sc {
+  font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}*/
+
+/* .ballet-{
+ font-family: "Ballet", cursive;
+ font-optical-sizing: auto;
+ font-weight: 400;
+ font-style: normal;
+}*/
+
+main{
+	width:900px;
+	margin:0 auto;
+	padding:10px;
+/*	border:1px solid black;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: "Ballet", cursive;
+font-optical-sizing: auto;
+	font-size: 40px;
+font-weight: 500;
+font-style: normal;
+}
+
+h1{
+	border-bottom: 1px solid black;
+}
+
+p {
+  font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outer{
+	display: flex;
+}
+
+.inner{
+	width: 50%;
+}
