@@ -26,7 +26,7 @@ main{
 h1, h2, h3, h4, h5, h6 {
  font-family: "Ballet", cursive;
 font-optical-sizing: auto;
-	font-size: 40px;
+	font-size: 50px;
 font-weight: 500;
 font-style: normal;
 }
@@ -48,4 +48,41 @@ p {
 
 .inner{
 	width: 50%;
+}
+
+.colourbox1 {
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+	background-color: #6c000dff;
+	border-radius: 20px;
+}
+
+.colourbox2 {
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+	background-color: #b3717eff;
+	border-radius: 20px;
+}
+
+.colourbox3 {
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+	background-color: #e2d7d5ff;
+	border-radius: 20px;
+}
+
+.colourbox4{
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+	background-color: #191717ff;
+	border-radius: 20px;
+}
+
+.hex{
+	margin-right: 70px;
+	margin-left: 70px;
 }
