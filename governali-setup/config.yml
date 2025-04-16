@@ -2,3 +2,8 @@ title: My Portfolio
 name: Mikala Governali
 email: mikalagovernali@gmail.com
 baseurl: "/portfolio"
+
+	collections:
+  	designs:
+    output: true
+    permalink: /designs/:name/
